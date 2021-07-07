@@ -33,10 +33,14 @@ app.post("/" , function(req , res){
 var jsonData = JSON.stringify(data);
 
 var options = {
-    url : "https://us6.api.mailchimp.com/3.0/lists/b20be948e5" ,
+
+    //<API-List-ID> -->Your own Mailchimp List ID
+    url : "https://us6.api.mailchimp.com/3.0/lists/<API-List-ID>" ,
     method : "POST" ,
     headers : {
-        "Authorization": "RaunakP123 757973494d90902f0775389ad11d9da8-us6"
+        //the api key has been hidden due to security resons
+        //<name API-KEY> ---> Any name and your own API-KEY
+        "Authorization": "<name API-KEY>"
     } ,
     body : jsonData
 };

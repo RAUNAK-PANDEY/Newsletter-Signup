@@ -1,5 +1,5 @@
 # Newsletter-Signup
-## This is a web-application made in Nodejs using Express framework which collects user's information such as first_name , last_name and email for sending newsletters through emails and It store the information into mailchimp list via api calls .
+## This is a web-application made in Nodejs using Express framework which collects user's information such as first_name , last_name and email for sending newsletters through emails and It store the informations into mailchimp list via api calls .
 
 ## <p>Check it live.😊 <a href="https://raunak-newsletter.herokuapp.com/" target="_blank"> [ Click here ]</a></p> 
 
